@@ -5852,10 +5852,10 @@ input[type="color"]:focus,
   width: 100%;
   height: 3.5em;
   padding: .5em;
-  background: #18bc9c;
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
+  background: #2c3e50;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #fdfdfe;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #fdfdfe;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #fdfdfe;
 }
 #body-login #header {
   margin: -2em auto 0;
@@ -5892,11 +5892,11 @@ input[type="color"]:focus,
   margin-top: -0.2em;
 }
 #navigation {
-  background: #18bc9c;
+  background: #2c3e50;
 }
 #expanddiv {
   top: 49px;
-  background: #18bc9c;
+  background: #2c3e50;
 }
 .clearfix:before,
 .clearfix:after,

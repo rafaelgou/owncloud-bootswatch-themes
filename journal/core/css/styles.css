@@ -5760,7 +5760,7 @@ button.close {
   width: 100%;
   height: 3.5em;
   padding: .5em;
-  background: #eb6864;
+  background: #ffffff;
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
@@ -5800,11 +5800,11 @@ button.close {
   margin-top: -0.2em;
 }
 #navigation {
-  background: #eb6864;
+  background: #ffffff;
 }
 #expanddiv {
   top: 49px;
-  background: #eb6864;
+  background: #ffffff;
 }
 .clearfix:before,
 .clearfix:after,

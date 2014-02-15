@@ -5810,10 +5810,10 @@ button.close {
   width: 100%;
   height: 3.5em;
   padding: .5em;
-  background: #033c73;
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #f6faff;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #f6faff;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #f6faff;
+  background: #2fa4e7;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
 }
 #body-login #header {
   margin: -2em auto 0;
@@ -5850,11 +5850,11 @@ button.close {
   margin-top: -0.2em;
 }
 #navigation {
-  background: #033c73;
+  background: #2fa4e7;
 }
 #expanddiv {
   top: 49px;
-  background: #033c73;
+  background: #2fa4e7;
 }
 .clearfix:before,
 .clearfix:after,

@@ -5811,10 +5811,10 @@ legend {
   width: 100%;
   height: 3.5em;
   padding: .5em;
-  background: transparent;
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px rgba(191, 191, 191, 0);
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px rgba(191, 191, 191, 0);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px rgba(191, 191, 191, 0);
+  background: #ffffff;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
 }
 #body-login #header {
   margin: -2em auto 0;
@@ -5851,11 +5851,11 @@ legend {
   margin-top: -0.2em;
 }
 #navigation {
-  background: transparent;
+  background: #ffffff;
 }
 #expanddiv {
   top: 49px;
-  background: transparent;
+  background: #ffffff;
 }
 .clearfix:before,
 .clearfix:after,

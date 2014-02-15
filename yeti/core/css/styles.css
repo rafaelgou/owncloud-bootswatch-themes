@@ -5997,10 +5997,10 @@ label,
   width: 100%;
   height: 3.5em;
   padding: .5em;
-  background: #008cba;
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
+  background: #333333;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #f2f2f2;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #f2f2f2;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #f2f2f2;
 }
 #body-login #header {
   margin: -2em auto 0;
@@ -6037,11 +6037,11 @@ label,
   margin-top: -0.2em;
 }
 #navigation {
-  background: #008cba;
+  background: #333333;
 }
 #expanddiv {
   top: 49px;
-  background: #008cba;
+  background: #333333;
 }
 .clearfix:before,
 .clearfix:after,

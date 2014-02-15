@@ -5968,7 +5968,7 @@ label {
   width: 100%;
   height: 3.5em;
   padding: .5em;
-  background: #ffffff;
+  background: #f8f8f8;
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), inset 0 -2px 2px #ffffff;
@@ -6008,11 +6008,11 @@ label {
   margin-top: -0.2em;
 }
 #navigation {
-  background: #ffffff;
+  background: #f8f8f8;
 }
 #expanddiv {
   top: 49px;
-  background: #ffffff;
+  background: #f8f8f8;
 }
 .clearfix:before,
 .clearfix:after,
