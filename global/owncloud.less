@@ -50,3 +50,49 @@
     top: 49px;
     background: @navbar-default-bg;
 }
+
+#controls {
+    background: @panel-default-heading-bg;
+}
+
+/* Table */
+table {
+    .table;
+    .table-striped;
+    .table-hover;
+    .table-condensed;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  vertical-align: middle;
+}
+
+.documentlist .document,
+.documentlist .progress,
+.documentlist .add-document {
+    background-color: @well-bg;
+}
+
+
+button {
+    .btn;
+    .btn-default;
+}
+
+#dropdown {
+    background: @table-bg-hover;
+}
+
+
+/* Won't work 'cause Contacts stylesheet is loaded after */
+#contactsHeader {
+    top: 49px;
+    height: auto;
+}
+
+

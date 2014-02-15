@@ -6014,6 +6014,234 @@ label {
   top: 49px;
   background: #f8f8f8;
 }
+#controls {
+  background: #f5f5f5;
+}
+/* Table */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+table .table {
+  background-color: #ffffff;
+}
+table tr.success,
+table tr.warning,
+table tr.danger {
+  color: #fff;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  border-color: transparent;
+}
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 5px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  vertical-align: middle;
+}
+.documentlist .document,
+.documentlist .progress,
+.documentlist .add-document {
+  background-color: #fafafa;
+}
+button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-width: 0 1px 4px 1px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555555;
+  background-color: #eeeeee;
+  border-color: #e2e2e2;
+}
+button:focus,
+button:active:focus,
+button.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+button:hover,
+button:focus {
+  color: #555555;
+  text-decoration: none;
+}
+button:active,
+button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+button.disabled,
+button[disabled],
+fieldset[disabled] button {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+button:hover {
+  margin-top: 1px;
+  border-bottom-width: 3px;
+}
+button:active {
+  margin-top: 2px;
+  border-bottom-width: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+button-default:hover,
+button-default:focus,
+button-group.open .dropdown-toggle.btn-default {
+  background-color: #eeeeee;
+  border-color: #e2e2e2;
+}
+button-primary:hover,
+button-primary:focus,
+button-group.open .dropdown-toggle.btn-primary {
+  background-color: #158cba;
+  border-color: #127ba3;
+}
+button-success:hover,
+button-success:focus,
+button-group.open .dropdown-toggle.btn-success {
+  background-color: #28b62c;
+  border-color: #23a127;
+}
+button-info:hover,
+button-info:focus,
+button-group.open .dropdown-toggle.btn-info {
+  background-color: #75caeb;
+  border-color: #5fc1e8;
+}
+button-warning:hover,
+button-warning:focus,
+button-group.open .dropdown-toggle.btn-warning {
+  background-color: #ff851b;
+  border-color: #ff7701;
+}
+button-danger:hover,
+button-danger:focus,
+button-group.open .dropdown-toggle.btn-danger {
+  background-color: #ff4136;
+  border-color: #ff291c;
+}
+button-group.open .dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+button:hover,
+button:focus,
+button:active,
+button.active,
+.open .dropdown-togglebutton {
+  color: #555555;
+  background-color: #dadada;
+  border-color: #c3c3c3;
+}
+button:active,
+button.active,
+.open .dropdown-togglebutton {
+  background-image: none;
+}
+button.disabled,
+button[disabled],
+fieldset[disabled] button,
+button.disabled:hover,
+button[disabled]:hover,
+fieldset[disabled] button:hover,
+button.disabled:focus,
+button[disabled]:focus,
+fieldset[disabled] button:focus,
+button.disabled:active,
+button[disabled]:active,
+fieldset[disabled] button:active,
+button.disabled.active,
+button[disabled].active,
+fieldset[disabled] button.active {
+  background-color: #eeeeee;
+  border-color: #e2e2e2;
+}
+button .badge {
+  color: #eeeeee;
+  background-color: #555555;
+}
+#dropdown {
+  background: #f5f5f5;
+}
+/* Won't work 'cause Contacts stylesheet is loaded after */
+#contactsHeader {
+  top: 49px;
+  height: auto;
+}
 .clearfix:before,
 .clearfix:after,
 .container:before,

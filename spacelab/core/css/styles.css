@@ -5901,6 +5901,270 @@ button.close {
   top: 49px;
   background: #eeeeee;
 }
+#controls {
+  background: #f5f5f5;
+}
+/* Table */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+table .table {
+  background-color: #ffffff;
+}
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 5px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  vertical-align: middle;
+}
+.documentlist .document,
+.documentlist .progress,
+.documentlist .add-document {
+  background-color: #f5f5f5;
+}
+button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  background-color: #474949;
+  border-color: #474949;
+}
+button:focus,
+button:active:focus,
+button.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+button:hover,
+button:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:active,
+button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+button.disabled,
+button[disabled],
+fieldset[disabled] button {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+button-default {
+  background-image: -webkit-linear-gradient(#6d7070, #474949 50%, #3d3f3f);
+  background-image: linear-gradient(#6d7070, #474949 50%, #3d3f3f);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d7070', endColorstr='#ff3d3f3f', GradientType=0);
+  filter: none;
+  border: 1px solid #2e2f2f;
+}
+button-default:hover {
+  background-image: -webkit-linear-gradient(#636565, #3d3f3f 50%, #333434);
+  background-image: linear-gradient(#636565, #3d3f3f 50%, #333434);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff636565', endColorstr='#ff333434', GradientType=0);
+  filter: none;
+  border: 1px solid #242525;
+}
+button-primary {
+  background-image: -webkit-linear-gradient(#6d94bf, #446e9b 50%, #3e648d);
+  background-image: linear-gradient(#6d94bf, #446e9b 50%, #3e648d);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d94bf', endColorstr='#ff3e648d', GradientType=0);
+  filter: none;
+  border: 1px solid #345578;
+}
+button-primary:hover {
+  background-image: -webkit-linear-gradient(#5f8ab9, #3e648d 50%, #385a7f);
+  background-image: linear-gradient(#5f8ab9, #3e648d 50%, #385a7f);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5f8ab9', endColorstr='#ff385a7f', GradientType=0);
+  filter: none;
+  border: 1px solid #2e4b69;
+}
+button-success {
+  background-image: -webkit-linear-gradient(#61dd45, #3cb521 50%, #36a41e);
+  background-image: linear-gradient(#61dd45, #3cb521 50%, #36a41e);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff61dd45', endColorstr='#ff36a41e', GradientType=0);
+  filter: none;
+  border: 1px solid #2e8a19;
+}
+button-success:hover {
+  background-image: -webkit-linear-gradient(#52da34, #36a41e 50%, #31921b);
+  background-image: linear-gradient(#52da34, #36a41e 50%, #31921b);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff52da34', endColorstr='#ff31921b', GradientType=0);
+  filter: none;
+  border: 1px solid #287916;
+}
+button-info {
+  background-image: -webkit-linear-gradient(#7bbdf7, #3399f3 50%, #208ff2);
+  background-image: linear-gradient(#7bbdf7, #3399f3 50%, #208ff2);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7bbdf7', endColorstr='#ff208ff2', GradientType=0);
+  filter: none;
+  border: 1px solid #0e80e5;
+}
+button-info:hover {
+  background-image: -webkit-linear-gradient(#68b3f6, #208ff2 50%, #0e86ef);
+  background-image: linear-gradient(#68b3f6, #208ff2 50%, #0e86ef);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff68b3f6', endColorstr='#ff0e86ef', GradientType=0);
+  filter: none;
+  border: 1px solid #0c75d2;
+}
+button-warning {
+  background-image: -webkit-linear-gradient(#ff9c21, #d47500 50%, #c06a00);
+  background-image: linear-gradient(#ff9c21, #d47500 50%, #c06a00);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9c21', endColorstr='#ffc06a00', GradientType=0);
+  filter: none;
+  border: 1px solid #a15900;
+}
+button-warning:hover {
+  background-image: -webkit-linear-gradient(#ff930d, #c06a00 50%, #ab5e00);
+  background-image: linear-gradient(#ff930d, #c06a00 50%, #ab5e00);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff930d', endColorstr='#ffab5e00', GradientType=0);
+  filter: none;
+  border: 1px solid #8d4e00;
+}
+button-danger {
+  background-image: -webkit-linear-gradient(#ff1d1b, #cd0200 50%, #b90200);
+  background-image: linear-gradient(#ff1d1b, #cd0200 50%, #b90200);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff1d1b', endColorstr='#ffb90200', GradientType=0);
+  filter: none;
+  border: 1px solid #9a0200;
+}
+button-danger:hover {
+  background-image: -webkit-linear-gradient(#ff0906, #b90200 50%, #a40200);
+  background-image: linear-gradient(#ff0906, #b90200 50%, #a40200);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff0906', endColorstr='#ffa40200', GradientType=0);
+  filter: none;
+  border: 1px solid #860100;
+}
+button:active,
+button.active {
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+button:hover,
+button:focus,
+button:active,
+button.active,
+.open .dropdown-togglebutton {
+  color: #ffffff;
+  background-color: #333434;
+  border-color: #292a2a;
+}
+button:active,
+button.active,
+.open .dropdown-togglebutton {
+  background-image: none;
+}
+button.disabled,
+button[disabled],
+fieldset[disabled] button,
+button.disabled:hover,
+button[disabled]:hover,
+fieldset[disabled] button:hover,
+button.disabled:focus,
+button[disabled]:focus,
+fieldset[disabled] button:focus,
+button.disabled:active,
+button[disabled]:active,
+fieldset[disabled] button:active,
+button.disabled.active,
+button[disabled].active,
+fieldset[disabled] button.active {
+  background-color: #474949;
+  border-color: #474949;
+}
+button .badge {
+  color: #474949;
+  background-color: #ffffff;
+}
+#dropdown {
+  background: #f5f5f5;
+}
+/* Won't work 'cause Contacts stylesheet is loaded after */
+#contactsHeader {
+  top: 49px;
+  height: auto;
+}
 .clearfix:before,
 .clearfix:after,
 .container:before,

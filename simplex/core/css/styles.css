@@ -5855,6 +5855,174 @@ legend {
   top: 49px;
   background: #ffffff;
 }
+#controls {
+  background: #fcfcfc;
+}
+/* Table */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+table .table {
+  background-color: #fcfcfc;
+}
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 5px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  vertical-align: middle;
+}
+.documentlist .document,
+.documentlist .progress,
+.documentlist .add-document {
+  background-color: #f4f4f4;
+}
+button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  background-color: #474949;
+  border-color: #474949;
+  background-image: -webkit-linear-gradient(#4f5151, #474949 6%, #3f4141);
+  background-image: linear-gradient(#4f5151, #474949 6%, #3f4141);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f5151', endColorstr='#ff3f4141', GradientType=0);
+  filter: none;
+  border: 1px solid #2e2f2f;
+}
+button:focus,
+button:active:focus,
+button.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+button:hover,
+button:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:active,
+button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+button.disabled,
+button[disabled],
+fieldset[disabled] button {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+button:hover,
+button:focus,
+button:active,
+button.active,
+.open .dropdown-togglebutton {
+  color: #ffffff;
+  background-color: #333434;
+  border-color: #292a2a;
+}
+button:active,
+button.active,
+.open .dropdown-togglebutton {
+  background-image: none;
+}
+button.disabled,
+button[disabled],
+fieldset[disabled] button,
+button.disabled:hover,
+button[disabled]:hover,
+fieldset[disabled] button:hover,
+button.disabled:focus,
+button[disabled]:focus,
+fieldset[disabled] button:focus,
+button.disabled:active,
+button[disabled]:active,
+fieldset[disabled] button:active,
+button.disabled.active,
+button[disabled].active,
+fieldset[disabled] button.active {
+  background-color: #474949;
+  border-color: #474949;
+}
+button .badge {
+  color: #474949;
+  background-color: #ffffff;
+}
+#dropdown {
+  background: #f5f5f5;
+}
+/* Won't work 'cause Contacts stylesheet is loaded after */
+#contactsHeader {
+  top: 49px;
+  height: auto;
+}
 .clearfix:before,
 .clearfix:after,
 .container:before,
