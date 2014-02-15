@@ -1,0 +1,22 @@
+{
+  "name": "OwnCloud-Bootswatch-Themes",
+  "description": "OwnCloud Bootswatch Themes is a collection of themes for Bootstrap.",
+  "version": "0.1.0",
+  "author": "Rafael Goulart",
+  "homepage": "owncloud-bootswatch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelgou/owncloud-bootswatch.git"
+  },
+  "engines": {
+    "node": ">= 0.8.11"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-watch": "~0.5.1"
+  }
+}

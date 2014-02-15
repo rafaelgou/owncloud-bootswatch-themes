@@ -1,0 +1,3 @@
+[submodule "bootswatch"]
+	path = bootswatch
+	url = https://github.com/thomaspark/bootswatch.git
