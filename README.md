@@ -1,6 +1,8 @@
 OwnCloud Bootswatch Themes
 ==========================
 
+**ALERT: this project is descontinued and not updated to latest versions of Owncloud (specially 9)**. Sorry, guys.
+
 This is a collection of free themes for [Owncloud](http://owncloud.org/), based on [Bootswatch](http://bootswatch.com), which is based
 on [Bootstrap](http://getbootstrap.com/).
 
